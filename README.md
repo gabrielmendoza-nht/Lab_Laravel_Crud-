@@ -130,7 +130,7 @@ php artisan make:model Product -m
 
 El modelo se ubica en `app/Models/Product.php` y la migración en `database/migrations`. El modelo representa los productos y permite acceder a sus registros mediante Eloquent.
 
-<img width="973" height="512" alt="image" src="https://github.com/user-attachments/assets/bbe3732c-d949-4aae-9ae2-4517fbcba71a" />
+<img width="577" height="245" alt="image" src="https://github.com/user-attachments/assets/d2d21eab-2458-4505-b3bf-6f9646f22ac3" />
 
 
 ### 8. Definir las columnas de la tabla de productos
@@ -152,7 +152,6 @@ Los nombres del formulario, el modelo y la base de datos deben coincidir. Si la 
 php artisan migrate
 ```
 
-![IMG8: Columnas definidas para la tabla de productos](Imagenes/Img8.png)
 
 ### 9. Instalar el generador de CRUD
 
@@ -162,7 +161,8 @@ composer require ibex/crud-generator --dev
 
 Este paquete puede generar controladores, vistas, solicitudes y rutas. Si ya existen esos archivos, conviene revisar su contenido antes de volver a generarlos para no sobrescribir cambios.
 
-![IMG9: Instalación del generador CRUD](Imagenes/Img9.png)
+<img width="790" height="599" alt="image" src="https://github.com/user-attachments/assets/28aca26b-634f-4f8f-9f7b-fad5c1c1dd0f" />
+
 
 ### 10. Publicar los archivos del paquete
 
@@ -170,7 +170,8 @@ Este paquete puede generar controladores, vistas, solicitudes y rutas. Si ya exi
 php artisan vendor:publish --tag=crud
 ```
 
-![IMG10: Publicación de recursos del generador](Imagenes/Img10.png)
+<img width="662" height="398" alt="image" src="https://github.com/user-attachments/assets/37e045a3-0c52-4380-9092-0d290776f426" />
+
 
 ### 11. Generar el CRUD para `products`
 
