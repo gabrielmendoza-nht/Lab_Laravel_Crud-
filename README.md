@@ -74,7 +74,7 @@ cd C:\wamp64\www\nombre_del_proyecto
 
 Desde aquí se ejecutan los comandos de Artisan. En la raíz se encuentra el archivo `artisan`, y las carpetas principales son `app`, `database`, `resources` y `routes`.
 
-![IMG3: Estructura inicial del proyecto](Imagenes/Img3.png)
+
 
 ### 4. Revisar el archivo `.env`
 
@@ -89,9 +89,10 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-> ⚠️ No subas contraseñas reales al repositorio. Usa `.env.example` como referencia.
 
-![IMG4: Configuración del archivo .env](Imagenes/Img4.png)
+
+<img width="996" height="459" alt="image" src="https://github.com/user-attachments/assets/ddff954e-7477-435e-85ef-d3c44285fca3" />
+
 
 ### 5. Ajustar la longitud de cadenas (si es necesario)
 
@@ -120,7 +121,7 @@ php artisan migrate:status
 - `migrate:fresh` elimina todas las tablas y las vuelve a crear (**no usar si hay datos que conservar**).
 - `migrate:rollback` revierte el último lote de migraciones.
 
-![IMG6: Ejecución de las migraciones](Imagenes/Img6.png)
+<img width="1202" height="427" alt="image" src="https://github.com/user-attachments/assets/227d20d4-e9c3-4781-87c4-e1cde739f53e" />
 
 ### 7. Crear el modelo `Product` y su migración
 
@@ -130,7 +131,8 @@ php artisan make:model Product -m
 
 El modelo se ubica en `app/Models/Product.php` y la migración en `database/migrations`. El modelo representa los productos y permite acceder a sus registros mediante Eloquent.
 
-![IMG7: Modelo Product y migración generada](Imagenes/Img7.png)
+<img width="973" height="512" alt="image" src="https://github.com/user-attachments/assets/bbe3732c-d949-4aae-9ae2-4517fbcba71a" />
+
 
 ### 8. Definir las columnas de la tabla de productos
 
