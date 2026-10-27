@@ -91,8 +91,6 @@ DB_PASSWORD=
 
 
 
-<img width="996" height="459" alt="image" src="https://github.com/user-attachments/assets/ddff954e-7477-435e-85ef-d3c44285fca3" />
-
 
 ### 5. Ajustar la longitud de cadenas (si es necesario)
 
@@ -121,7 +119,8 @@ php artisan migrate:status
 - `migrate:fresh` elimina todas las tablas y las vuelve a crear (**no usar si hay datos que conservar**).
 - `migrate:rollback` revierte el último lote de migraciones.
 
-<img width="1202" height="427" alt="image" src="https://github.com/user-attachments/assets/227d20d4-e9c3-4781-87c4-e1cde739f53e" />
+<img width="577" height="175" alt="image" src="https://github.com/user-attachments/assets/921066e4-2694-4c35-a9fe-bc4ee34920ee" />
+
 
 ### 7. Crear el modelo `Product` y su migración
 
