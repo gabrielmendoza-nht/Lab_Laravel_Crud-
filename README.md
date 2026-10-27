@@ -181,7 +181,6 @@ php artisan make:crud products
 
 Después de ejecutarlo, se deben revisar los archivos creados y adaptarlos a los campos y necesidades reales del proyecto.
 
-![IMG11: Ejecución del generador](Imagenes/Img11.png)
 
 ### 12. Revisar las rutas del recurso
 
@@ -199,7 +198,6 @@ La ruta de recurso asocia las direcciones habituales con los métodos del contro
 php artisan route:list --path=products
 ```
 
-![IMG12: Rutas del recurso products](Imagenes/Img12.png)
 
 ## 🏗️ Cómo se organiza el CRUD (MVC)
 
