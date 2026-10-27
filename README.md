@@ -239,31 +239,41 @@ Las reglas de validación deben corresponder con los campos que envía el formul
 
 En el formulario se introducen nombre, descripción, precio y stock. El controlador valida los datos y los guarda mediante el modelo.
 
-![IMG13: Formulario de creación](Imagenes/Img13.png)
+<img width="1337" height="432" alt="image" src="https://github.com/user-attachments/assets/2e8c51c1-60aa-4704-abfb-f51edffb4f75" />
+
 
 ### 2. Consultar el listado
 
 La vista `index.blade.php` muestra los productos en una tabla, con acceso a las opciones de consultar, editar y eliminar.
 
-![IMG14: Listado de productos](Imagenes/Img14.png)
+<img width="1333" height="366" alt="image" src="https://github.com/user-attachments/assets/07668ad9-de70-42bb-97da-481c93e835e3" />
+
 
 ### 3. Consultar los detalles
 
 La vista `show.blade.php` presenta los datos del producto seleccionado sin permitir modificarlos.
 
-![IMG15: Detalles de un producto](Imagenes/Img15.png)
+<img width="1350" height="278" alt="image" src="https://github.com/user-attachments/assets/c8371cf0-0a75-4995-81e1-b8659ab668a8" />
 
 ### 4. Editar un producto
 
 El formulario de edición carga los datos actuales y, al guardar, el método `update` procesa los cambios.
 
-![IMG16: Formulario de edición](Imagenes/Img16.png)
+<img width="1365" height="453" alt="image" src="https://github.com/user-attachments/assets/07fc3b90-3768-4271-b318-fff6fef1420c" />
+
+Producto editado 
+<img width="1361" height="304" alt="image" src="https://github.com/user-attachments/assets/e7225733-a544-46c4-b339-70477e4cbdfa" />
 
 ### 5. Eliminar un producto
 
 El método `destroy` borra el registro seleccionado. Conviene verificar que se eligió el producto correcto antes de confirmar.
 
-![IMG17: Eliminación de un producto](Imagenes/Img17.png)
+<img width="1347" height="388" alt="Captura de pantalla 2026-10-27 161127" src="https://github.com/user-attachments/assets/fa26ddc7-5284-4101-b5ba-f2ddad6a51d4" />
+
+Muestra producto eliminado 
+<img width="1358" height="287" alt="image" src="https://github.com/user-attachments/assets/8d7785dd-6238-4633-ba1d-1b614c001a1f" />
+
+
 
 ## ▶️ Levantar el sistema
 
