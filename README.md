@@ -9,14 +9,12 @@
 ![Entorno](https://img.shields.io/badge/Entorno-Windows%20%7C%20WampServer-lightgrey)
 ![CRUD](https://img.shields.io/badge/Proyecto-CRUD-success)
 
-## [Nombre de tu universidad]
+## Universidad Tecnológica de Panamá
 
-### [Nombre de tu facultad]
+### Facultad de ingeniería en Sistemas
 
-**Laboratorio:** [Título del laboratorio]
-**Guía utilizada:** [Nombre de la guía]
-**Proyecto:** `nombre_del_proyecto`
-
+**Laboratorio:** Laboratorio CRUD
+## Estudiante: Gabriel Mendoza 
 ---
 
 ## 🎯 Objetivos
@@ -340,12 +338,12 @@ Para evitar perder datos, primero se debe revisar el esquema y preparar una migr
 
 ## 👤 Información del estudiante
 
-- **Universidad:** [Tu universidad]
-- **Facultad:** [Tu facultad]
-- **Nombre:** [Tu nombre]
-- **Curso:** [Tu curso]
-- **Docente:** [Nombre del docente]
+- **Universidad:** Universidad Tecnológica de Panama
+- **Facultad:** Facultad de Ingeniería en Sistemas 
+- **Nombre:** Gabriel Mendoza
+- **Curso:** Desarrollo Web
+- **Profesora:** Irina Fong
 
 ---
 
-*Laboratorio CRUD con Laravel · [Tu universidad]*
+*Laboratorio CRUD con Laravel · *
