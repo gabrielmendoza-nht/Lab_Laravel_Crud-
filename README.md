@@ -13,7 +13,7 @@
 
 ### Facultad de ingeniería en Sistemas
 
-**Laboratorio:** Laboratorio CRUD
+**Laboratorio:** CRUD
 ## Estudiante: Gabriel Mendoza 
 ---
 
