@@ -52,7 +52,8 @@ cd C:\wamp64\www
 
 `www` es el directorio donde WampServer guarda los proyectos web locales.
 
-![IMG1: PowerShell ubicado en la carpeta www](<img width="1357" height="464" alt="image" src="https://github.com/user-attachments/assets/b6044fb6-464d-4b85-87ec-4584eeb8b582" />)
+![IMG1: PowerShell ubicado en la carpeta www] <img width="1357" height="464" alt="image" src="https://github.com/user-attachments/assets/3fa7772c-9c06-4f1c-8298-933cf49a96d3" />
+
 
 ### 2. Crear el proyecto Laravel
 
