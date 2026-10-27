@@ -279,7 +279,6 @@ La terminal muestra una dirección local (normalmente `http://127.0.0.1:8000`) q
 composer run dev
 ```
 
-![IMG18: Aplicación en ejecución](Imagenes/Img18.png)
 
 ## 🗄️ Base de datos y mantenimiento
 
@@ -291,7 +290,6 @@ La tabla `products` debe contener las columnas que usa la aplicación. Si el lis
 - Que `$fillable` permita asignar los campos requeridos.
 - Que los métodos `store` y `update` guarden los valores correctos.
 
-![IMG19: Estructura o datos de la base de datos](Imagenes/Img19.png)
 
 Como respaldo, se puede exportar la base de datos desde phpMyAdmin en formato SQL.
 
@@ -329,11 +327,10 @@ Si los datos no se guardan o se muestran incompletos, revisar en este orden:
 
 Para evitar perder datos, primero se debe revisar el esquema y preparar una migración correctiva en lugar de usar `migrate:fresh`.
 
-![IMG21: Resultado final del laboratorio](Imagenes/Img21.png)
 
 ## 📚 Referencias
 
-- **Guía de laboratorio:** *[Título de la guía]*, material proporcionado para la práctica.
+- **Guía de laboratorio:** 
 - Laravel. *Documentación oficial*. <https://laravel.com/docs>
 - Laravel. *Migraciones*. <https://laravel.com/docs/migrations>
 - Laravel. *Eloquent ORM*. <https://laravel.com/docs/eloquent>
