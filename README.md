@@ -58,7 +58,7 @@ cd C:\wamp64\www
 ### 2. Crear el proyecto Laravel
 
 ```powershell
-laravel new nombre_del_proyecto
+laravel new crud_rapido
 ```
 
 El instalador crea la carpeta del proyecto con la estructura inicial de la aplicación. Si el proyecto ya existe, no se debe volver a ejecutar este comando sobre la misma carpeta.
@@ -69,7 +69,7 @@ El instalador crea la carpeta del proyecto con la estructura inicial de la aplic
 ### 3. Entrar en la carpeta del proyecto
 
 ```powershell
-cd C:\wamp64\www\lab_laravel_crud
+cd C:\wamp64\www\crud_rapido
 ```
 
 Desde aquí se ejecutan los comandos de Artisan. En la raíz se encuentra el archivo `artisan`, y las carpetas principales son `app`, `database`, `resources` y `routes`.
